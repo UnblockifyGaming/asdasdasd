@@ -1,0 +1,9 @@
+.fancy-button {
+    transition: transform 0.4s, box-shadow 0.4s, font-size 0.4s; /* Added font-size to the transition */
+}
+
+.fancy-button:hover {
+    transform: scale(1.2); /* Making the buttons much bigger on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem; /* Increasing font size on hover */
+}
