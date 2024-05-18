@@ -138,11 +138,13 @@
             
             // Array of button names
             const buttonNames = [
-                'Slope', '1v1.LOL', 'Subway surfers', 'Eaglercraft', 'Coreball',
+                'Slope', 'Slope 2','1v1.LOL', 'Subway surfers', 'Eaglercraft', 'Coreball',
                 'Interstellar', 'Doge V4', 'Snorlaxs cave', 'Antimatter dimensions', 'Idle dice',
                 'Stick merge', 'Big tower tiny square', 'Happy glass', 'Crazy cars', 'Vex',
                 'Push the box', 'Stickman hook', 'Down the hill', 'Tag', 'Doodle jump',
-                'Football masters', 'Basketball legends', 'Idle mining empire', 'Fruit ninja', 'Monkey mart'
+                'Football masters', 'Basketball legends', 'Idle mining empire',
+                'Fruit ninja', 'Monkey mart', 'Run 3', 'Yohoho.io', 'Tunnel rush',
+                'Tunnel rush 2', 'Mr bullet', 'Temple run', 'Solitaire', 'OvO', 'Crossy road'
             ];
 
             // Generate buttons with the names from the array
@@ -159,7 +161,7 @@
             // Create special button
             const specialButton = document.createElement('button');
             specialButton.className = 'fancy-button special-button'; // Apply special styling
-            specialButton.innerHTML = `<span>Special Launch</span>`;
+            specialButton.innerHTML = `<span>Launch in "about:blank"</span>`;
             specialButton.onclick = () => {
                 const win = window.open('about:blank', '_blank');
                 const url = "https://games.bwuce.com";
